@@ -36,3 +36,4 @@ logs/
 *IntegrationTest.java
 *.log
 .DS_Store
+/bin/
