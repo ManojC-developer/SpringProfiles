@@ -13,10 +13,9 @@ public class HomeController {
 	@Autowired
 	private Environment environment;
 	
-	
 	@GetMapping("/")
 	public String home() {
-		System.out.println("manu");
+		System.out.println("raju");
 		System.out
 				.println("Application is starting with port: {}" + " " + environment.getProperty("local.server.port"));
 		return "Application is starting with port: " + environment.getProperty("local.server.port");
