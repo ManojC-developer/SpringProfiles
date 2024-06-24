@@ -1,6 +1,7 @@
 package com.namdq.example.springboot.profiles;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,7 +16,7 @@ public class HomeController {
 	
 	@GetMapping("/")
 	public String home() {
-		System.out.println("raju");
+		System.out.println("adxdtxy");
 		System.out
 				.println("Application is starting with port: {}" + " " + environment.getProperty("local.server.port"));
 		return "Application is starting with port: " + environment.getProperty("local.server.port");
